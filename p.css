@@ -1,16 +1,16 @@
-/* General reset for list styling */
+
 ul {
     list-style-type: none;
 }
 
-/* Header Navigation Grid */
+
 .nav-grid {
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
 }
 
-/* Hero Section Grid */
+
 .hero-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -18,7 +18,7 @@ ul {
     align-items: center;
 }
 
-/* Standard Sized Hero Image Card */
+
 .hero-card {
     max-width: 320px;
     width: 100%;
@@ -31,21 +31,21 @@ ul {
     justify-content: center;
 }
 
-/* About Section Grid */
+
 .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
-/* Projects & Education Grid */
+
 .projects-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
 
-/* Contact Form Grid */
+
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -55,7 +55,7 @@ ul {
     margin-right: auto;
 }
 
-/* Mobile Responsive Adjustments */
+
 @media (max-width: 768px) {
     .nav-grid,
     .hero-grid,
